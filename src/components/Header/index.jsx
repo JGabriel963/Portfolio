@@ -8,7 +8,7 @@ export default function Header() {
             className='section bg-tertiary-color text-white'
         >
             <HeaderBar />
-            <div className="h-screen w-full  flex justify-center mt-40" data-aos="fade-up"  data-aos-duration="1500" >
+            <div className="h-screen w-full  flex justify-center mt-16 md:mt-40" data-aos="fade-up"  data-aos-duration="1500" >
                 <Profile />
             </div>
         </section>
