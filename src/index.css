@@ -7,5 +7,5 @@
 }
 
 .section {
-  @apply md:h-screen
+  @apply h-screen
 }
