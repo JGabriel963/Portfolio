@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply bg-primary-color text-white 
+}
+
+.section {
+  @apply md:h-screen
+}
