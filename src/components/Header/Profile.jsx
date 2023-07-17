@@ -8,7 +8,9 @@ export default function Profile() {
         <div 
             className='flex flex-col text-center'
         >
-            <img src={profile} alt="perfil" width='200px' className='block mx-auto mb-5'/>
+            <div className='bg-blur rounded-full mx-auto mb-5 relative main'>
+                <img src={profile} alt="perfil" width='200px' className='block front'/>   
+            </div>
             <h1
                 className='font-extrabold text-4xl mb-1 text-blur'
             >
@@ -18,22 +20,23 @@ export default function Profile() {
             <div 
                 className='flex justify-around text-3xl mb-7'
             >
-                <a href="#">
+                <a href="https://instagram.com/joaogabriel9263" target='_blank' className='hover:scale-125 duration-300'>
                     <BsInstagram />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/JGabriel963" target='_blank' className='hover:scale-125 duration-300'>
                     <BsLinkedin />
                 </a>
-                <a href="#">
+                <a href="https://github.com/JGabriel963" target='_blank' className='hover:scale-125 duration-300'>
                     <BsGithub />
                 </a>
             </div>
 
+            
             <Link 
                 to='contact'
                 smooth={true}
                 spy={true}
-                className='bg-primary-color py-4 rounded-full font-extrabold text-white hover:bg-red-2 transition-colors cursor-pointer'
+                className='bg-primary-color py-4 rounded-full font-extrabold text-white hover:bg-red-2 transition-colors cursor-pointer '
             >
                 Contact me
             </Link>

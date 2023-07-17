@@ -12,10 +12,12 @@ export default {
       'primary-color': '#fe0a03',
       'secondary-color': '#FFD3B1',
       'tertiary-color': '#323150',
+      'background': '#F0EFF5',
       'blur': '#1A8DEB',
       'blur-2': '#2B7EEA',
       'yellow': '#E3EB02',
-      'red-2': '#fe432f',
+      'red-2': '#b6100b',
+      'red-5': '#fe432f',
       'red-3': '#fe7b5b',
       'red-4': '#ffb488'
     },

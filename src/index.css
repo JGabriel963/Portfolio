@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .active {
   @apply bg-primary-color text-white 
 }
 
 .section {
-  @apply h-screen
+  @apply h-screen px-4 md:px-10 lg:px-44
 }
