@@ -6,23 +6,17 @@ export default function About() {
         <section id="about" className='section  md:py-14'>
             <h1 
                 className="text-4xl font-extrabold text-center md:text-start mb-16 border-b-2"
-                data-aos="flip-left"
-                data-aos-duration="1500"
             >
                 Sobre mim
             </h1>
             <div className='flex flex-col md:flex-row md:justify-center items-center gap-x-8'>
                 <div 
                     className='bg-primary-color rounded-full mx-auto mb-5 relative main'
-                    data-aos="fade-right"
-                    data-aos-duration="1500"
                 >
                     <img src={profile} alt="perfil" width='200px' className='block front'/>   
                 </div>
                 <div 
                     className='bg-white w-[90%] md:w-[70%] rounded-xl shadow-md p-5'
-                    data-aos="fade-left"
-                    data-aos-duration="1500"
                 >
                     <p>Olá, eu me chamo <span className='font-extrabold'>João Gabriel</span> e há algum  tempo eu venho estudando sobre este grande mundo da Programação. Depois de meu primeiro "Olá, Mundo", só quis aprender mais e mais, evoluindo a cada dia. Desejo me torna um ótimo <span className='font-extrabold'>Desenvolvedor Web</span> e colaborar ainda mais com o crescimento desta área tão divertida =D Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, laudantium adipisci consectetur impedit commodi cum nemo quae nesciunt, minus soluta enim debitis doloremque harum unde eligendi sit error sequi pariatur.</p>
 
@@ -33,8 +27,6 @@ export default function About() {
             </div>
             <h1 
                 className='text-4xl font-extrabold mt-10'
-                data-aos="fade-down-right"
-                data-aos-duration="1500"
             >
                 Minhas Habilidades
             </h1>

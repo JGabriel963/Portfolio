@@ -5,8 +5,6 @@ export default function Skills() {
     return (
         <div 
             className="flex flex-col items-center md:grid md:grid-cols-3 md:place-items-center mt-14 gap-8"
-            data-aos="zoom-out"
-            data-aos-duration="1500"
 
         >
           <i 
