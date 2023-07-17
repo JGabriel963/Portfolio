@@ -13,6 +13,7 @@ export default {
       'secondary-color': '#FFD3B1',
       'tertiary-color': '#323150',
       'background': '#F0EFF5',
+      'gray': '#AFADB7',
       'blur': '#1A8DEB',
       'blur-2': '#2B7EEA',
       'yellow': '#E3EB02',

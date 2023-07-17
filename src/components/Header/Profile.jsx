@@ -20,13 +20,13 @@ export default function Profile() {
             <div 
                 className='flex justify-around text-3xl mb-7'
             >
-                <a href="https://instagram.com/joaogabriel9263" target='_blank' className='hover:scale-125 duration-300'>
+                <a href="https://instagram.com/joaogabriel9263" target='_blank' className='hover:scale-150 duration-300'>
                     <BsInstagram />
                 </a>
-                <a href="https://www.linkedin.com/in/JGabriel963" target='_blank' className='hover:scale-125 duration-300'>
+                <a href="https://www.linkedin.com/in/JGabriel963" target='_blank' className='hover:scale-150 duration-300'>
                     <BsLinkedin />
                 </a>
-                <a href="https://github.com/JGabriel963" target='_blank' className='hover:scale-125 duration-300'>
+                <a href="https://github.com/JGabriel963" target='_blank' className='hover:scale-150 duration-300'>
                     <BsGithub />
                 </a>
             </div>

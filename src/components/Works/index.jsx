@@ -56,8 +56,14 @@ const project = [
 
 export default function Works() {
     return (
-        <section id="works" className='section flex flex-col justify-center'>
-            <h1 className="text-4xl font-extrabold mb-20">Projetos Recentes:</h1>
+        <section id="works" className='section md:mt-0 flex flex-col justify-center'>
+            <h1 
+                className="text-3xl md:text-4xl font-extrabold mb-20 border-b-2 pb-1"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+            >
+                    Projetos Recentes:
+                </h1>
             <div className="flex flex-col justify-center items-center md:grid md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {project.map((project) => (
                     <Card key={project.id} title={project.title} img={project.img} deploy={project.deploy} github={project.github} />

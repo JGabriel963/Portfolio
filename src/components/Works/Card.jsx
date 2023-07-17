@@ -3,7 +3,12 @@ import { BsGithub } from 'react-icons/bs'
 
 export default function Card({ img, title, deploy, github }) {
     return (
-        <div className="w-full group relative overflow-hidden border-2 rounded-xl flex-1 text-white">
+        <div 
+            className="w-full group relative overflow-hidden border-2 rounded-xl flex-1 text-white shadow-lg"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+
+        >
             <div 
                 className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"
             ></div>
