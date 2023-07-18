@@ -4,10 +4,10 @@ import Skills from "./Skills";
 export default function About() {
   return (
     <section id="about" className="section  md:py-14">
-      <h1 className="text-4xl font-extrabold text-center md:text-start mb-16 border-b-2">
+      <h1 className="text-4xl font-extrabold text-center md:text-start mb-16 border-b-2" data-aos="flip-right" data-aos-duration="1500">
         Sobre mim
       </h1>
-      <div className="flex flex-col md:flex-row md:justify-center items-center gap-x-8">
+      <div className="flex flex-col md:flex-row md:justify-center items-center gap-x-8" data-aos="flip-left" data-aos-duration="1500">
         <div className="bg-primary-color rounded-full mx-auto mb-5 relative main">
           <img
             src={profile}
@@ -36,7 +36,7 @@ export default function About() {
           </button>
         </div>
       </div>
-      <h1 className="text-4xl font-extrabold mt-10">Minhas Habilidades</h1>
+      <h1 className="text-4xl font-extrabold mt-10" data-aos="fade-down" data-aos-duration="1500">Minhas Habilidades</h1>
       <Skills />
     </section>
   );

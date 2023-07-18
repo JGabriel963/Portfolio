@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Profile() {
   return (
-    <div className="flex flex-col text-center">
+    <div className="flex flex-col text-center" data-aos="fade-up" data-aos-duration="1500">
       <div className="bg-blur rounded-full mx-auto mb-5 relative main">
         <img src={profile} alt="perfil" width="200px" className="block front" />
       </div>

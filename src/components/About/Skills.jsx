@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className="flex flex-col items-center md:grid md:grid-cols-3 md:place-items-center mt-14 gap-8">
+    <div className="flex flex-col items-center md:grid md:grid-cols-3 md:place-items-center mt-14 gap-8" data-aos="zoom-in-down" data-aos-duration="1500">
       <div className="skill">
         <i className="devicon-html5-plain text-7xl"></i>
         <span>HTML5</span>
