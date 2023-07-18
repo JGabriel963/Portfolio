@@ -1,9 +1,9 @@
 
 # My Personal Portfolio
 
+<img src="p-screen.png" alt="screen" />
+
 Meu projeto de protifólio pessoal criado para ser a minha porta de entrada para que outros possam me conhecer e acompanhar o meu desenvolvimento. 💙
-
-
 
 ## Quer me conhecer agora mesmo?
 
