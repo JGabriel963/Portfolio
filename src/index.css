@@ -7,10 +7,11 @@
   @apply bg-primary-color text-white 
 }
 
+
 .section {
   @apply px-4 py-4 md:py-28 md:px-10 lg:px-44
 }
 
 .skill {
-  @apply text-gray text-8xl md:text-6xl hover:text-primary-color hover:scale-125 duration-300 p-2 
+  @apply flex flex-col items-center text-gray hover:text-primary-color hover:font-extrabold hover:scale-150 duration-300
 }

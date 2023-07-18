@@ -14,6 +14,7 @@ export default {
       'tertiary-color': '#323150',
       'background': '#F0EFF5',
       'gray': '#AFADB7',
+      'gray-2': "#737275",
       'blur': '#1A8DEB',
       'blur-2': '#2B7EEA',
       'yellow': '#E3EB02',
