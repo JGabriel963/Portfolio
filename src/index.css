@@ -7,11 +7,18 @@
   @apply bg-primary-color text-white 
 }
 
-
 .section {
   @apply px-4 py-4 md:py-28 md:px-10 lg:px-44
 }
 
 .skill {
   @apply flex flex-col items-center text-gray hover:text-primary-color hover:font-extrabold hover:scale-150 duration-300
+}
+
+.input {
+  @apply w-full text-gray-2 focus:ring-2 focus:ring-tertiary-color focus:outline-none p-4 rounded-full drop-shadow-lg transition-all
+}
+
+.footer__animation {
+  @apply cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
 }

@@ -1,24 +1,59 @@
+import { useState } from "react";
 import { LuSend } from "react-icons/lu";
+import emailjs from "@emailjs/browser";
 
 export default function FormContact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   const handleSubmit = (ev) => {
     ev.preventDefault();
-    alert("Mensagem Enviada =D");
+
+    const templateParams = {
+      from_name: name,
+      message: message,
+      email: email,
+    };
+
+    emailjs
+      .send(
+        "service_ijdeieb",
+        "template_qpuejw8",
+        templateParams,
+        "zjB1ALUi-fEbkYydM"
+      )
+      .then((response) => {
+        alert("Email Enviado =D");
+        setName("");
+        setEmail("");
+        setMessage("");
+      })
+      .catch((error) => console.log(error));
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-[90%] md:w-[70%]" data-aos="flip-down" data-aos-duration="1500">
+    <form
+      onSubmit={handleSubmit}
+      className="w-[90%] md:w-[70%]"
+      data-aos="flip-down"
+      data-aos-duration="1500"
+    >
       <div className="flex gap-4 flex-col items-center sm:flex-row ">
         <input
           type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           placeholder="Seu nome"
-          className="w-full text-gray-2 focus:ring-2 focus:ring-tertiary-color focus:outline-none p-4 rounded-full drop-shadow-lg transition-all"
+          className="input"
           required
         />
         <input
           type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
           placeholder="Email"
-          className="w-full text-gray-2 focus:ring-2 focus:ring-tertiary-color focus:outline-none p-4 rounded-full drop-shadow-lg transition-all"
+          className="input"
           required
         />
       </div>
@@ -28,9 +63,9 @@ export default function FormContact() {
         className="w-full text-gray-2 my-8 drop-shadow-lg rounded-full p-3 focus:ring-2 focus:ring-tertiary-color focus:outline-none transition-all"
       />
       <textarea
-        name=""
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
         placeholder="Digite sua menssagem..."
-        id=""
         cols="30"
         rows="8"
         className="w-full text-gray-2 p-4 drop-shadow-lg rounded-3xl focus:ring-2 focus:ring-tertiary-color focus:outline-none transition-all"

@@ -7,6 +7,7 @@ import Works from "./components/Works";
 import NavArrowUp from "./components/Nav/arrowUp";
 import UserContext from "./contexts/UserContext";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [nav, setNav] = useState(false);
@@ -20,11 +21,12 @@ export default function App() {
     <UserContext.Provider value={values}>
       <Container>
         <Header />
-        {!nav ? <Nav /> : <NavArrowUp />}
+        {nav ? <Nav /> : <NavArrowUp />}
         <About />
         <Works />
         <Contact />
       </Container>
+      <Footer />
     </UserContext.Provider>
   );
 }
