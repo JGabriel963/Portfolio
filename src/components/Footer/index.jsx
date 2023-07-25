@@ -5,7 +5,7 @@ export default function Footer() {
   const [heart, setHeart] = useState(false);
 
   return (
-    <div className="flex items-center gap-2 justify-center h-7 text-gray bg-tertiary-color font-extrabold">
+    <div className="flex items-center gap-2 justify-center h-10 text-gray bg-tertiary-color font-extrabold">
       Made with{" "}
       {heart ? (
         <FaHeart

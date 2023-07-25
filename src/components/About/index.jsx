@@ -20,13 +20,21 @@ export default function About() {
         data-aos="flip-left"
         data-aos-duration="1500"
       >
-        <div className="bg-primary-color rounded-full mx-auto mb-5 relative main">
-          <img
-            src={profile}
-            alt="perfil"
-            width="200px"
-            className="block front"
-          />
+        <div className="mx-auto mb-5 w-[200px] h-[200px] cursor-pointer group perspective">
+          <div className="relative w-full h-full duration-1000 preserve-3d group-hover:my-rotate-y-180">
+            <div className="absolute backface-hidden w-full h-full rounded-full border-2 border-tertiary-color">
+              <img
+                src={profile}
+                alt="perfil"
+              />
+            </div>
+            <div className="absolute my-rotate-y-180 backface-hidden w-full h-full rounded-full overflow-hidden border-2 border-tertiary-color">
+            <img
+                src="https://avatars.githubusercontent.com/u/112815316?v=4"
+                alt="perfil"
+              />
+            </div>
+          </div>
         </div>
         <div className="bg-white w-[90%] md:w-[70%] rounded-xl shadow-md p-5">
           <p>
@@ -37,15 +45,14 @@ export default function About() {
             mais e mais, evoluindo a cada dia e pesquisando sobre as novidades e
             as ferramentas mais populares e desafiadoras da área. Desejo me
             torna um ótimo{" "}
-            <span className="font-extrabold">Desenvolvedor Web</span> e
+            <span className="font-extrabold">Desenvolvedor Front-End</span> e
             colaborar ainda mais com o crescimento desta ecossistema tão
-            divertida =D. Atualmento eu venho estudando as tecnologias usada no{" "}
+            divertida =D. Atualmento eu venho estudando as tecnologias usadas no{" "}
             <span className="font-extrabold">Back-End</span> e, de vez em
             quando, me aventuro no{" "}
             <span className="font-extrabold">Desenvolvimento Mobile</span> com o
             intuito de ser um profissional cada vez mais proativo e possuir um
-            olhar mais diversificado. Enfim, espero que acompanhem meu
-            desenvolvimento...
+            olhar mais diversificado. Acompanhe meu desenvolvimento junto comigo...
           </p>
 
           <button

@@ -14,7 +14,7 @@ export default function HeaderBar() {
         <span className="text-primary-color">G</span>
         <span className="text-blur">.</span>
       </div>
-      {!nav ? (
+      {nav ? (
         <BiMenu
           className="text-blur cursor-pointer rounded-md border-2 hover:scale-125 duration-300 transition-all"
           onClick={() => setNav(!nav)}
