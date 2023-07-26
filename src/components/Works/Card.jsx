@@ -20,12 +20,12 @@ export default function Card({ img, title, deploy, github }) {
           alt="project"
           className=" group-hover:scale-125 transition-all duration-500"
         />
-        <div className="absolute -bottom-full left-2 md:left-12 group-hover:bottom-20 md:group-hover:bottom-24 transition-all duration-500 z-50">
+        <div className="absolute -bottom-full left-4 md:left-12 group-hover:bottom-20 md:group-hover:bottom-24 transition-all duration-500 z-50">
           <span className="text-2xl text-primary-color font-extrabold">
             {title}
           </span>
         </div>
-        <div className="absolute -bottom-full left-2 md:left-12 group-hover:bottom-7 md:group-hover:bottom-10 transition-all duration-700 z-50 flex gap-4">
+        <div className="absolute -bottom-full left-4 md:left-12 group-hover:bottom-7 md:group-hover:bottom-10 transition-all duration-700 z-50 flex gap-4">
           <a
             href={deploy}
             target="_blank"
@@ -53,7 +53,7 @@ export default function Card({ img, title, deploy, github }) {
           </button>
         </div>
       </div>
-      <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Modal isOpen={isOpen} img={img} title={title} setIsOpen={setIsOpen} />
     </div>
   );
 }
