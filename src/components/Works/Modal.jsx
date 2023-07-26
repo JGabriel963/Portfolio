@@ -8,7 +8,7 @@ export default function Modal({ isOpen, setIsOpen, img, title }) {
             <div className="fixed top-0 bottom-0 left-0 right-0 bg-tertiary-color/50 z-50">
                 <div className="h-full w-full flex justify-center items-center">
                     <div 
-                        className="flex flex-col  bg-background p-6 pb-9 rounded-2xl w-[90%] md:w-[60%] relative"
+                        className="flex flex-col  bg-background p-6 pb-9 rounded-2xl w-[90%] md:w-[60%] relative my-2"
                     >
                         <img 
                             src={img} 

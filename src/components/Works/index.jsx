@@ -59,7 +59,7 @@ export default function Works() {
       className="section md:mt-0 flex flex-col justify-center"
     >
       <h1
-        className="text-3xl md:text-4xl font-extrabold mb-20 border-b-2 pb-1"
+        className="text-3xl text-tertiary-color md:text-4xl font-extrabold mb-20 border-b-2 pb-1"
         data-aos="flip-right"
         data-aos-duration="1500"
       >

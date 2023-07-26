@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section id="about" className="section  md:py-14">
       <h1
-        className="text-4xl font-extrabold text-center md:text-start mb-16 border-b-2"
+        className="text-4xl text-tertiary-color font-extrabold text-center md:text-start mb-16 border-b-2"
         data-aos="flip-right"
         data-aos-duration="1500"
       >
@@ -39,18 +39,18 @@ export default function About() {
         <div className="bg-white w-[90%] md:w-[70%] rounded-xl shadow-md p-5">
           <p>
             Olá, eu me chamo{" "}
-            <span className="font-extrabold">João Gabriel</span> e já está com
+            <span className="font-extrabold text-tertiary-color">João Gabriel</span> e já está com
             algum tempo em que eu venho estudando sobre este grande mundo da
             Programação. Depois de meu primeiro "Olá, Mundo", só quis aprender
             mais e mais, evoluindo a cada dia e pesquisando sobre as novidades e
             as ferramentas mais populares e desafiadoras da área. Desejo me
             torna um ótimo{" "}
-            <span className="font-extrabold">Desenvolvedor Front-End</span> e
+            <span className="font-extrabold text-tertiary-color">Desenvolvedor Front-End</span> e
             colaborar ainda mais com o crescimento desta ecossistema tão
             divertida =D. Atualmento eu venho estudando as tecnologias usadas no{" "}
-            <span className="font-extrabold">Back-End</span> e, de vez em
+            <span className="font-extrabold text-tertiary-color">Back-End</span> e, de vez em
             quando, me aventuro no{" "}
-            <span className="font-extrabold">Desenvolvimento Mobile</span> com o
+            <span className="font-extrabold text-tertiary-color">Desenvolvimento Mobile</span> com o
             intuito de ser um profissional cada vez mais proativo e possuir um
             olhar mais diversificado. Acompanhe meu desenvolvimento junto comigo...
           </p>
@@ -64,7 +64,7 @@ export default function About() {
         </div>
       </div>
       <h1
-        className="text-4xl font-extrabold mt-10"
+        className="text-4xl text-tertiary-color font-extrabold mt-10"
         data-aos="fade-down"
         data-aos-duration="1500"
       >

@@ -9,8 +9,8 @@ export default function Profile() {
       <div className="bg-blur rounded-full mx-auto mb-5 relative main">
         <img src={profile} alt="perfil" width="200px" className="block front" />
       </div>
-      <h1 className="font-extrabold text-4xl mb-1 text-blur">João Gabriel</h1>
-      <p className="mb-5 text-blur-2">
+      <h1 className="font-extrabold text-4xl mb-1 text-tertiary-color">João Gabriel</h1>
+      <p className="mb-5 text-tertiary-color">
         I
         <span className="font-semibold text-red-3">
           <Typewriter
@@ -27,7 +27,7 @@ export default function Profile() {
           />
         </span>
       </p>
-      <div className="flex justify-around text-3xl mb-7 text-blur-2">
+      <div className="flex justify-around text-3xl mb-7 text-tertiary-color">
         <a
           href="https://instagram.com/joaogabriel9263"
           target="_blank"
