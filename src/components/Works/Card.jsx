@@ -4,7 +4,7 @@ import { CgDetailsMore } from "react-icons/cg";
 import { useState } from "react";
 import Modal from "./Modal";
 
-export default function Card({ img, title, deploy, github }) {
+export default function Card({ img, title, deploy, github, description }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -53,7 +53,7 @@ export default function Card({ img, title, deploy, github }) {
           </button>
         </div>
       </div>
-      <Modal isOpen={isOpen} img={img} title={title} setIsOpen={setIsOpen} />
+      <Modal isOpen={isOpen} img={img} title={title} setIsOpen={setIsOpen} description={description} />
     </div>
   );
 }
