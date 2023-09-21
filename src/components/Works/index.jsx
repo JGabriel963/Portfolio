@@ -1,7 +1,7 @@
 import Card from "./Card";
 // Images
 import layoutTailwind from "../../../public/layout-t.png";
-import pedido from "../../../public/pedido.png";
+import call from "../../../public/call.png";
 import raffleNumbers from "../../../public/raffle.png";
 import importRem from "../../../public/rem.png";
 import siteDbv from "../../../public/dbv-site.png";
@@ -18,27 +18,27 @@ const project = [
   },
   {
     id: 2,
-    title: "Pedido de Namoro",
-    img: pedido,
-    deploy: "https://jgabriel963.github.io/Dating_Request/",
-    github: "https://github.com/JGabriel963/Dating_Request",
-    description: "Projeto simples usando o básico de conhecimentos em Front-End para simular um pedido de namoro. O único pedido em que a morena não pode recusar."
+    title: "Sistema de Chamadas",
+    img: call,
+    deploy: "https://call-system-three.vercel.app/",
+    github: "https://github.com/JGabriel963/call_system",
+    description: 'Projeto feito com Firebase e React + Vite para simular sistema de chamadas onde o usuário realiza seu cadastro, cadastra cliente e marca chamadas com o cliente. Para testar, usar "teste@teste.com" como email e "123123" como senha.'
   },
   {
     id: 3,
     title: "Sorteador de Números",
     img: raffleNumbers,
-    deploy: "https://raffle-numbers.vercel.app/",
+    deploy: "affle-numbers.vercel.app",
     github: "https://github.com/JGabriel963/raffle_numbers",
-    description: "Sistema simples para simular um sorteio. Projeto pessoa que surgiu com a necessidade de um sistema de fácil uso para usar em igrejas e eventos onde desejam realizar algum sorteio baseado em números."
+    description: 'Sistema simples para simular um sorteio. Projeto pessoa que surgiu com a necessidade de um sistema de fácil uso para usar em igrejas e eventos onde desejam realizar algum sorteio baseado em números.'
   },
   {
     id: 4,
     title: "Convertor de Pixels",
     img: importRem,
-    deploy: "https://jgabriel963.github.io/Converter_To_Rem/",
+    deploy: "https://gentle-unicorn-80f606.netlify.app/",
     github: "https://github.com/JGabriel963/Converter_To_Rem",
-    description: ""
+    description: "Converter pixel para rem nunca foi tão fácil para inicianetes. Aplicação simples para aquelas pessoas que gostariam de sair do padrão 'pixel' e passar a usar 'rem' em suas aplicações."
   },
   {
     id: 5,

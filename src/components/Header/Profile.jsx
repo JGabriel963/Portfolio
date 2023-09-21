@@ -6,8 +6,8 @@ import { Typewriter } from "react-simple-typewriter";
 export default function Profile() {
   return (
     <div className="flex flex-col text-center" data-aos="fade-up" data-aos-duration="1500">
-      <div className="bg-blur rounded-full mx-auto mb-5 relative main">
-        <img src={profile} alt="perfil" width="200px" className="block front" />
+      <div className="bg-blur rounded-full mx-auto mb-5 relative main overflow-hidden border-2 border-tertiary-color">
+        <img src="https://avatars.githubusercontent.com/u/112815316?v=4" alt="perfil" width="200px" className="block front" />
       </div>
       <h1 className="font-extrabold text-4xl mb-1 text-tertiary-color">João Gabriel</h1>
       <p className="mb-5 text-tertiary-color">

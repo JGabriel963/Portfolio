@@ -55,12 +55,7 @@ export default function About() {
             olhar mais diversificado. Acompanhe meu desenvolvimento junto comigo...
           </p>
 
-          <button
-            className="mt-8 bg-primary-color hover:bg-red-2 transition-colors py-2 px-4 rounded-full text-white font-extrabold"
-            onClick={downloadCv}
-          >
-            Download CV
-          </button>
+          
         </div>
       </div>
       <h1
